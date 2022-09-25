@@ -1,4 +1,4 @@
-import { ProjectStatus } from "../state/project.js";
+import { ProjectStatus } from "../state/project";
 
 // Project data object
 export class Project {

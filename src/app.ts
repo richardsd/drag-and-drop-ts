@@ -1,6 +1,6 @@
-import { ProjectInput } from './components/project-input.js';
-import { ProjectList } from './components/project-list.js';
-import { ProjectStatus } from './state/project.js';
+import { ProjectInput } from './components/project-input';
+import { ProjectList } from './components/project-list';
+import { ProjectStatus } from './state/project';
 
 new ProjectInput();
 new ProjectList(ProjectStatus.Active);
